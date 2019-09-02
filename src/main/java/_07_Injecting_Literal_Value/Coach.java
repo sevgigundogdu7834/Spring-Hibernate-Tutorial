@@ -1,4 +1,4 @@
-package _06_InjectionTypes;
+package _07_Injecting_Literal_Value;
 
 public interface Coach {
 

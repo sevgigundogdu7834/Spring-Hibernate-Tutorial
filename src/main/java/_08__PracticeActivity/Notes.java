@@ -1,4 +1,4 @@
-package _08__PracticeActivity$2;
+package _08__PracticeActivity;
 
 
 public class Notes {

@@ -3,10 +3,14 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="baseBallCoach" class="_08__PracticeActivity.BaseBallCoach">
+    <bean id="baseBallCoach"
+          class="_09_Bean_scope.BaseBallCoach"
+          scope="prototype">
       <property name="fortuneService" ref="myFortuneService"/>
     </bean>
 
-    <bean id="myFortuneService" class="_08__PracticeActivity.HappyFortuneService"></bean>
+    <bean id="myFortuneService"
+          class="_09_Bean_scope.HappyFortuneService"
+          scope="prototype"></bean>
 
 </beans>

@@ -1,4 +1,4 @@
-package _08__PracticeActivity;
+package _09_Bean_scope;
 
 public interface FortuneService {
 

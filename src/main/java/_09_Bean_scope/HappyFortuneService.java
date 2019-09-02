@@ -1,8 +1,8 @@
-package _08__PracticeActivity;
+package _09_Bean_scope;
 
 import java.util.Random;
 
-public class HappyFortuneService implements FortuneService{
+public class HappyFortuneService implements FortuneService {
 
     String[] fortuneArray={
 
